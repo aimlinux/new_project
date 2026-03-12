@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
+    <script src="https://unpkg.com/ml5@0.12.2/dist/ml5.min.js"></script>
 </head>
 
 <body>
@@ -21,13 +22,6 @@
     <div class="container glass-panel">
         <h1>AI 思い出生成アプリ <span class="sparkle">✨</span></h1>
         <p class="subtitle">写真をアップロードして、AIが空想の思い出を生成します。</p>
-
-        <div class="form-group">
-            <label for="apiKey">Gemini API Key</label>
-            <div class="input-wrapper">
-                <input type="password" id="apiKey" placeholder="AIのAPIキーを入力してください">
-            </div>
-        </div>
 
         <div class="upload-area">
             <label tabindex="0" for="imageUpload" class="upload-btn">

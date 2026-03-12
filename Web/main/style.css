@@ -9,6 +9,12 @@ h1{
     font-size: 4.0rem;
 }
 
+p{
+    color:white;
+    font-size: 1.5rem;
+}
+
+
 #preview{
     width:400px;
     margin-top:20px;
